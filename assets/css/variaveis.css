@@ -1,0 +1,24 @@
+@import url(./style.css);
+
+:root{
+  /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+  /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+  --cor-de-fundo-secundaria: #FFF;
+  --cor-de-fundo: #F5F5F5;
+  --cor-de-fundo-formacao: #EAF2FD;
+  --cor-de-fundo-contato: #EAF2FD;
+
+  --cor-de-link: #000;
+
+  --cor-de-texto: #464646;
+  --cor-de-icone: #464646;
+
+  --cor-de-fundo-botao-2: #0000FF;
+  --cor-de-borda-botao-2: #0000FF;
+  --cor-de-texto-botao-2: #FFF;
+
+  --cor-de-fundo-botao-1: transparent;
+  --cor-de-borda-botao-1: #0000FF;
+  --cor-de-texto-botao-1: #0000FF;
+
+}
