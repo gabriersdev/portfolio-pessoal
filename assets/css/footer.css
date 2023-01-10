@@ -3,6 +3,8 @@
   padding: 2rem 5rem;
 
   background-color: var(--cor-de-fundo-secundaria);
+
+  font-size: var(--tamanho-fonte-texto-normal);
 }
 
 .footer__rodape{

@@ -42,8 +42,8 @@ section.hobbies{
 }
 
 .hobbies__name{
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: var(--tamanho-fonte-texto-normal);
 
   color: var(--cor-de-texto);
 }

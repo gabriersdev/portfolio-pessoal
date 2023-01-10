@@ -19,6 +19,7 @@ section.menu{
 
 .menu__title{
   margin-left: 1rem;
+  font-weight: 700;
 }
 
 .menu__list{
