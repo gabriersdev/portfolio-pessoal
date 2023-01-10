@@ -13,6 +13,10 @@ section.menu{
   align-items: center;
 }
 
+.menu__image{
+  width: 25px;
+}
+
 .menu__title{
   margin-left: 1rem;
 }

@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"`>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.googleapis.com">
   
   <!-- Folha de estilo de CSS Linkado -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
   <title>Portifólio Pessoal</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
   <div class="all">
     <section class="menu">
       <header>
-        <img src="assets/img/vector.png">
+        <img class="menu__image" src="assets/img/svgs/estrelas.svg">
         <h3 class="menu__title">Gabriel Ribeiro</h3>
       </header>
       <nav>
@@ -43,10 +43,10 @@
           <h3 class="title__subsection">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
           <ul class="title__network">
             <!-- Ponha os links de suas redes sociais favoritas -->
-            <li class="title__network__item"><a href="">Github<i class="bi bi-arrow-up-right"></i></a></li>
-            <li class="title__network__item"><a href="">Linkedin<i class="bi bi-arrow-up-right"></i></a></li>
-            <li class="title__network__item"><a href="">Instagram<i class="bi bi-arrow-up-right"></i></a></li>
-            <li class="title__network__item"><a href="">Curriculo<i class="bi bi-arrow-up-right"></i></a></li>
+            <li class="title__network__item"><a href="">Github<span class="title__network__item__icone"></span></a></li>
+            <li class="title__network__item"><a href="">Linkedin<span class="title__network__item__icone"></span></a></li>
+            <li class="title__network__item"><a href="">Instagram<span class="title__network__item__icone"></span></a></li>
+            <li class="title__network__item"><a href="">Curriculo<span class="title__network__item__icone"></span></a></li>
           </ul>
         </div>
       </div>
@@ -69,42 +69,42 @@
       <div class="skills__line">
         <div class="skills__box">
           <ul>
-            <li class="skills__img"><img src="assets/img/htlm.png"></li>
+            <li class="skills__img"><img src="assets/img/svgs/skills/html.svg"></li>
             <li class="skills__name">HTML 5</li>
           </ul>
         </div>
         
         <div class="skills__box">
           <ul>
-            <li class="skills__img"> <img src="assets/img/js_icon.png" alt=""></li>
+            <li class="skills__img"> <img src="assets/img/svgs/skills/js.svg" alt=""></li>
             <li class="skills__name">Javascript</li>
           </ul>
         </div>
         
         <div class="skills__box">
           <ul>
-            <li class="skills__img"> <img src="assets/img/php_icon.png" alt=""></li>
+            <li class="skills__img"> <img src="assets/img/svgs/skills/php.svg" alt=""></li>
             <li class="skills__name">PHP</li>
           </ul>
         </div>
         
         <div class="skills__box">
           <ul>
-            <li class="skills__img"><img src="assets/img/nodejs_icon.png" alt=""></li>
+            <li class="skills__img"><img src="assets/img/svgs/skills/node.svg" alt=""></li>
             <li class="skills__name">Node JS</li>
           </ul>
         </div>
         
         <div class="skills__box">
           <ul>
-            <li class="skills__img"> <img src="assets/img/react_icon.png" alt=""> </li>
+            <li class="skills__img"> <img src="assets/img/svgs/skills/react.svg" alt=""> </li>
             <li class="skills__name">React</li>
           </ul>
         </div>
         
         <div class="skills__box">
           <ul>
-            <li class="skills__img"> <img src="assets/img/css_icon.png" alt=""> </li>
+            <li class="skills__img"> <img src="assets/img/svgs/skills/css.svg" alt=""> </li>
             <li class="skills__name">CSS</li>
           </ul>
         </div>
@@ -117,42 +117,42 @@
       <div class="hobbies__line">
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"><img src="assets/img/skate_icon.png"></li>
+            <li class="hobbies__img"><img src="assets/img/svgs/hobbies/skate.svg"></li>
             <li class="hobbies__name"> Andar de skate</li>
           </ul>
         </div>
         
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"> <img src="assets/img/guitar_icon.png" alt=""></li>
+            <li class="hobbies__img"> <img src="assets/img/svgs/hobbies/baixo.svg" alt=""></li>
             <li class="hobbies__name">Tocar baixo</li>
           </ul>
         </div>
         
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"> <img src="assets/img/headphones_icon.png" alt=""></li>
+            <li class="hobbies__img"> <img src="assets/img/svgs/hobbies/musica.svg" alt=""></li>
             <li class="hobbies__name">Ouvir música</li>
           </ul>
         </div>
         
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"><img src="assets/img/tv_icon.png" alt=""></li>
+            <li class="hobbies__img"><img src="assets/img/svgs/hobbies/series.svg" alt=""></li>
             <li class="hobbies__name">Assistir séries</li>
           </ul>
         </div>
         
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"> <img src="assets/img/forkspoon_icon.png" alt=""> </li>
+            <li class="hobbies__img"> <img src="assets/img/svgs/hobbies/cozinhar.svg" alt=""> </li>
             <li class="hobbies__name">Cozinhar</li>
           </ul>
         </div>
         
         <div class="hobbies__box">
           <ul>
-            <li class="hobbies__img"> <img src="assets/img/camera_icon.png" alt=""> </li>
+            <li class="hobbies__img"> <img src="assets/img/svgs/hobbies/fotos.svg" alt=""> </li>
             <li class="hobbies__name">Tirar fotos</li>
           </ul>
         </div>
@@ -282,8 +282,5 @@
   </section>
 </div>
 
-<!-- Script Linkado do seu documento de JavaScript -->
-<script src="validate.js"></script>
 </body>
 </html>
-

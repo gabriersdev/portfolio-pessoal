@@ -57,6 +57,14 @@ section.title{
   outline: none;
 }
 
+.title__network__item__icone{
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.25rem;
+  margin-left: 0.15rem;
+  background: url(../img/svgs/setas-link-externo.svg) center / contain no-repeat;
+}
+
 .title__network__item a:hover,
 .title__network__item a:focus{
   background-color: lightgrey;
