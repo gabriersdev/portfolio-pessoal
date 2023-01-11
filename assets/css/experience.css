@@ -19,14 +19,13 @@ section.experience{
   margin: 2.5rem 0;
 }
 
-.experience__img{
+.experience__midia{
   display: block;
-  width: 50%;
-  height: 250px;
-  background-color: lightgray;
+  width: 45%;
+  height: 100%;
 }
 
-.experiencie__box:nth-child(odd) .experience__img{
+.experiencie__box:nth-child(odd) .experience__midia{
   order: 1;
 }
 
@@ -54,14 +53,6 @@ section.experience{
 
 .experience__description{
   margin: auto;
-}
-
-.experience__repo{
-
-}
-
-.experience__demo{
-
 }
 
 .experiencia__botao--repo,
@@ -105,11 +96,11 @@ section.experience{
     flex-direction: column;
   }
 
-  .experience__img{
+  .experience__midia{
     width: 100%;
   }
 
-  .experiencie__box:nth-child(odd) .experience__img{
+  .experiencie__box:nth-child(odd) .experience__midia{
     order: initial;
   }
 

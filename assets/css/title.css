@@ -13,6 +13,16 @@ section.title{
 
 .title__profile{
   order: 1;
+
+  display: block;
+  background-image: url(../img/profile.png);
+  background-position: top;
+  background-size: cover;
+
+  border-radius: 10px;
+
+  width: 25rem;
+  height: 100%;
 }
 
 .title__container{
@@ -67,7 +77,7 @@ section.title{
 
 .title__network__item a:hover,
 .title__network__item a:focus{
-  background-color: lightgrey;
+  background-color: var(--cor-background-hover-links);
   padding: 0.5rem 0.75rem;
 }
 
@@ -88,7 +98,7 @@ section.title{
 
   .title__network__item a{
     margin-right: 1rem;
-    background-color: lightgrey;
+    background-color: var(--cor-background-hover-links);
     padding: 0.5rem 0.75rem;
 
     margin-top: 0.5rem;

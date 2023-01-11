@@ -9,10 +9,6 @@ section.formcontato{
   grid-gap: 1.5rem;
 }
 
-.formcontato--esquerda{
-
-}
-
 .formcontato__img{
   max-width: 50vh;
 }
@@ -58,9 +54,9 @@ section.formcontato{
   border-right: 0;
   border-bottom-width: 3px;
   border-style: solid;
-  border-color: gray;
+  border-color: var(--cor-de-borda-inputs);
   
-  background-color: #FFF;
+  background-color: var(--cor-de-fundo-inputs);
 
   transition: 0.3s;
 }
@@ -76,7 +72,7 @@ section.formcontato{
 
 .formcontato__input.ativo, .formcontato__input:focus,
 .formcontato__textarea.ativo, .formcontato__textarea:focus{
-  border-color: blue;
+  border-color: var(--cor-de-borda-botao-2);
 }
 
 .formcontato__botao{
@@ -85,9 +81,9 @@ section.formcontato{
   cursor: pointer;
   padding: 1rem 0.75rem;
 
-  border: 1px solid blue;
-  background-color: blue;
-  color: #FFF;
+  border: 1px solid var(--cor-de-borda-botao-2);
+  background-color: var(--cor-de-fundo-botao-2);
+  color: var(--cor-de-texto-botao-2);
 
   margin-right: 0.25rem;
 

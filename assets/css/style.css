@@ -12,10 +12,18 @@
 @import url(formcontato.css);
 @import url(footer.css);
 
+@import url(loader.css);
+@import url(modal.css);
+@import url(no-script.css);
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   box-sizing: border-box;
   background-color: var(--cor-de-fundo) ;
-  font-family: 'Inter Tight';
+  font-family: 'Inter Tight', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -25,20 +33,11 @@ body{
   font-weight: 700;
 }
 
-
-/*Footeer*/
-section.footer{
-  
+.oculto{
+  display: none;
 }
 
-/* Chegou a hora de se desafiar com a responsividade, 
-utilize como referência os breakpoints @media abaixo*/
-
-/*Tablet*/
-@media (min-width: 768px) {  
+.link-visivel{
+  text-decoration: underline;
+  cursor: pointer;
 }
-
-/*Mobile*/
-@media (min-width: 425px) {  
-}
-
