@@ -109,6 +109,11 @@ section.experience{
     margin-right: 0;
     margin-left: 0;
   }
+
+  .experiencia__botao--demo{
+    margin-top: 0.25rem;
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1000px){

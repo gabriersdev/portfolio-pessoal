@@ -8,6 +8,11 @@
 .modal::backdrop{
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.modal p{
+  line-height: 1.5;
+}
+
 .modal ul li{
   list-style-type: square;
   margin-left: 20px;

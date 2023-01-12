@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"`>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; script-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; script-src 'self'; frame-src https://gabriel-ribeiro.000webhostapp.com/formcontato-portfolio-pessoal/">
   
   <link rel="shortcut icon" href="./assets/img/svgs/icone.svg" type="image/x-icon">
 
@@ -179,7 +179,7 @@
         <div class="hobbies__box">
           <ul>
             <li class="hobbies__img"> <img src="assets/img/svgs/hobbies/bicicleta.svg" alt="Ícone de uma bicicleta"> </li>
-            <li class="hobbies__name">Pedalar</li>
+            <li class="hobbies__name">Andar de bike</li>
           </ul>
         </div>
 
@@ -289,40 +289,25 @@
       </div>  
     </section>
     
-  <!-- Sessão de Contato -->
-  <section class="formcontato" id="contato">
-    <div id="contato" class="formcontato__contacto">
-      <div class="formcontato--esquerda">
-        <img class="formcontato__img" src="assets/img/contact_image.png" alt="Imagem de um telefone">
-      </div>
-      <div class="formcontato__text">
-        <h2 class="formcontato__title">Contato</h2>
-        <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
-        <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-        <form class="formcontato__form">
-          <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-          <input class="formcontato__input" type="email" id="email" placeholder="Email">
-          <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-          <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-          <button class="formcontato__botao">Enviar mensagem</button>
-        </form>
-      </div>
-    </div>
-  </section>
+    <section>
+      <iframe class="contato-iframe" src="https://gabriel-ribeiro.000webhostapp.com/formcontato-portfolio-pessoal/" frameborder="0"></iframe>
+    </section>
 
-  <!-- Sessão de Footer/Rodapé-->
-  <section class="footer">
-    <div class="footer__rodape">
-      <p class="destaque">Desenvolvido por Gabriel Ribeiro</p>
-      <p>Baseado em um protótipo elaborado pelo ONE. <a class="link-visivel" data-direito-autorais>Direito Autorais</a></p>
-      <p><img src="./assets/img/svgs/copyright.svg" alt="Copyright">&nbsp;2022</p>
-    </div>
-  </section>
+    <!-- Sessão de Footer/Rodapé-->
+    <section class="footer">
+      <div class="footer__rodape">
+        <p class="destaque">Desenvolvido por Gabriel Ribeiro</p>
+        <p>Baseado em um protótipo elaborado pelo ONE. <a class="link-visivel" data-direito-autorais>Direito Autorais</a></p>
+        <p><img src="./assets/img/svgs/copyright.svg" alt="Copyright">&nbsp;2022</p>
+      </div>
+    </section>
 </div>
 
   <dialog class="modal" data-modal>
     <h3>Atribuição de Direitos Autorais</h3>
     
+    <br><p>Para o desenvolvimento deste site foram usados recursos dos seguintes serviços:</p>
+
     <ul>
       <li>Unsplash</li>
       <li>Bootstrap Icons</li>
